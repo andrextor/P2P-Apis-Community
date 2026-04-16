@@ -1,0 +1,33 @@
+name: 🐞 Bug Report
+description: Report a bug or unexpected behavior in P2P-Apis
+title: "[BUG]: "
+labels: ["high-priority"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve! Please describe the issue in detail.
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to trigger the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected Result
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: logs-screenshots
+    attributes:
+      label: Screenshots or Logs
+      description: Attach screenshots, copy-paste error logs, or network traces if applicable.

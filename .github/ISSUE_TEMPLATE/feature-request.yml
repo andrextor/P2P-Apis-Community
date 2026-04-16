@@ -1,0 +1,33 @@
+name: 🚀 Feature Request
+description: Propose a new endpoint or functionality for P2P-Apis
+title: "[FEAT]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide as much detail as possible.
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature Name
+      description: A concise title for the new feature or endpoint.
+      placeholder: e.g., Add support for Crypto P2P Checkout
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: Describe the scenario where this feature would be used.
+    validations:
+      required: true
+  - type: textarea
+    id: technical-description
+    attributes:
+      label: Technical Description
+      description: Detailed technical specs, proposed API structure, or logic.
+      placeholder: Provide schemas, request/response examples, etc.
+    validations:
+      required: true
