@@ -40,7 +40,7 @@ Join the conversation in the [Discussions](https://github.com/andrextor/P2P-Apis
 
 ## 📈 Project Status
 
-- **Current Version:** `v1.2.0-beta`
+- **Current Version:** `v2.8.2`
 - **Focus:** Enhancing checkout workflows and regional synchronization.
 - **Next Milestone:** Full support for multi-channel P2P notifications.
 
